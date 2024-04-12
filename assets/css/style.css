@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar {
+    background-color: #373A3C;
+}
+
+.img-fondo {
+    background-image: url("../img/bg-hero.jpg");
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    padding-bottom: 10%;
+}
+
+.titulo {
+    text-align: right;
+    padding-top: 40%;
+    font: normal normal bold 70px/82px Raleway;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.text-fondo {
+    text-align: right;
+}
+
+.botones {
+    padding-left: 82%;
+}
+
+/* Media queries para ajustes en diferentes resoluciones */
+@media (max-width: 768px) {
+    /* Estilos para pantallas de hasta 768px de ancho */
+    .titulo {
+        padding-top: 20%; /* Ajusta el padding superior del título */
+        font-size: 40px; /* Ajusta el tamaño de fuente del título */
+        line-height: 50px; /* Ajusta la altura de línea del título */
+    }
+
+    .botones {
+        padding-left: 0; /* Elimina el padding izquierdo para los botones */
+        text-align: right; /* Alinea los botones a la derecha */
+    }
+}
+
+
+
+.sobre-mi{
+    border: #373A3C solid transparent;
+    padding-top: 10%;
+
+}
+.text-sobremi{
+    text-align: center;
+font: normal normal bold 50px/59px Raleway;
+letter-spacing: 0.5px;
+color: #000000;
+opacity: 1;
+}
+.sec_iconos {
+    padding: 60px 0;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.sec_iconos article {
+    display: inline-block;
+    font-size: 15px;
+    width: 30%;
+    padding: 10px;
+}
+.fondo_azul {
+    background-color: #17A2B8;
+}
+.mis_trabajos {
+    text-align: center;
+    padding: 60px 0;
+    text-emphasis-color: #ffffff;
+}
+.card-body {
+    text-align: left;
+    color: #373A3C;
+    opacity: 1;
+}
+.contactame {
+    text-align: center;
+    padding: 20px;
+}
+.texto {
+    padding: 10px;
+    text-align: center;
+}
+.card-body {
+    display: inline-block;
+    padding: 10px;
+}
+footer{
+    padding: 15px;
+    background-color: black;
+    color: azure;
+}
+.card {
+    margin-bottom: 20px; /* Añadir un margen inferior entre las tarjetas */
+}
+.card img {
+    height: 200px; /* Altura deseada */
+    width: auto; /* Anchura automática para mantener la proporción */
+    object-fit: cover;
+}
+
+.fa-camera, .fa-bullhorn, .fa-map{
+    font-size: 3rem; /* Cambia el tamaño del icono */
+    padding: 10px;
+}
+.icon-into{
+    padding: 30px 150px ;
+    
+}
+.col-md-4{
+    padding: 0 50px;
+}
+.text-icon {
+    text-align: center;
+    font: normal normal normal 16px/25px Raleway;
+    letter-spacing: 0.32px;
+    color: #000000;
+    opacity: 2;
+}
+.campo-form{
+    padding: 30px 100px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.boton-final {
+    position: absolute; /* Establece el posicionamiento absoluto para el botón */
+    bottom: 0; /* Ajusta la posición desde la parte superior */
+    right: 8%; /* Ajusta la posición desde la derecha */
+    /* Resto de estilos del botón */
+    width: 99px;
+    height: 40px;
+    background-color: #17A2B8 ;
+    border-radius: 4px;
+    opacity: 1;
+    
+}
+
+
